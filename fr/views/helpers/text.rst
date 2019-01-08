@@ -20,7 +20,7 @@ Ajoute les liens aux adresses email bien formées dans $text, selon toutes
 les options définies dans ``$options`` (regardez
 :php:meth:`HtmlHelper::link()`)::
 
-    $myText = 'Pour plus d'informations sur nos pâtes et desserts fameux,
+    $myText = 'Pour plus d\'informations sur nos pâtes et desserts fameux,
         contactez info@example.com';
     $linkedText = $this->Text->autoLinkEmails($myText);
 
